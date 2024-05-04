@@ -1,0 +1,15 @@
+.menu {
+
+}
+.menu__mainText {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: Marmelad;
+}
+.cardContainer {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  justify-content: center;
+}

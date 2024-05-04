@@ -1,0 +1,56 @@
+.background {
+  background-image: url('../../../../assets/registerMain.svg');
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 550px;
+  height: 700px;
+  border-radius: 15px;
+  margin-top: 100px;
+  background-color: #ffffff;
+}
+.form__logoContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.form__linkContainer {
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+.form__linkContainer::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 30%;
+  height: 1px; /* Высота для обычных ссылок */
+  background-color: #f14b0f;
+  z-index: 1;
+}
+
+.form__link {
+  font-family: Marmelad;
+  font-size: 25px;
+  color: #000000;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: 3px solid #f14b0f;
+  width: 200px;
+  text-align: center;
+  z-index: 2;
+}
+
+.activeLink {
+  border-bottom: 1px solid #f14b0f; /* Толщина линии для активной ссылки */
+  text-align: center;
+  width: 100px;
+}

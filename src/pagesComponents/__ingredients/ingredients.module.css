@@ -1,0 +1,14 @@
+.tandaldyButton {
+  width: 282.9px;
+  height: 54.03px;
+  border: 2px #f14b0f solid;
+  background-color: white;
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #f14b0f;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

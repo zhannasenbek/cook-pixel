@@ -1,0 +1,15 @@
+.button {
+  background-color: #f14b0f;
+  color: #ffffff;
+  width: 365px;
+  height: 53.12px;
+  border: 0;
+  border-radius: 30px;
+  font-size: 24px;
+  font-family: Montserrat;
+  text-align: center;
+}
+.recipeName {
+  color: #5f5f5f;
+  font-size: 28px;
+}

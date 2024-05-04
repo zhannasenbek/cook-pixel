@@ -1,0 +1,83 @@
+.footer__img {
+  width: 230px;
+  height: 80px;
+  position: absolute;
+  top: 20%;
+  left: 40px;
+}
+.footer {
+  position: relative;
+  height: 370px;
+
+  font-family: Montserrat;
+}
+.footer__containerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+.footer__textSecond {
+  margin-left: 90px;
+}
+.footer__buttonContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  right: 5%;
+  top: 30%;
+}
+.footer__tirkeluButton {
+  width: 130px;
+  height: 40px;
+  background-color: #FA9344;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 0;
+}
+.footer_kiruButton {
+  width: 130px;
+  height: 40px;
+  border: 1px solid #FA9344;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #a6a3a3;
+}
+
+.footer__text_bold {
+  font-weight: bold;
+}
+.footer__text_marginTop {
+  margin-top: 10px;
+}
+.footer__hr {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  top: 80%;
+}
+.footer__bottomContainer {
+  position: absolute;
+  top: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+.footer__instLogo {
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+  margin-bottom: 2px;
+}
+.footer__youtubeLogo {
+  width: 24px;
+  padding-left: 4px;
+  height: 24px;
+}

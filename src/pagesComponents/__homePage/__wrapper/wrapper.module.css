@@ -1,0 +1,64 @@
+.wrapper {
+  background-color: #F3E9CB;
+  height: 450px;
+  width: 100%;
+}
+.wrapper__text {
+  margin-top: 50px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Marmelad;
+}
+.wrapper__container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.wrapper__img {
+  width: 217px;
+  height: 150px;
+}
+.wrapper__button {
+  background-color: #F14B0F;
+  width: 300px;
+  border: 0;
+  border-radius: 50px;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 50px;
+  height: 60px;
+}
+.wrapper__imgContainer {
+  position: relative;
+}
+.wrapper__arrow {
+  position: absolute;
+  top: 51px;
+  left: 4px;
+  width: 63px;
+  height: 57px;
+}
+.wrapper__categoryContainer {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+}
+.wrapper__spanContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.wrapper__bookLogo {
+  width: 80px;
+  height: 80px;
+}
+.wrapper__stoveLogo {
+  width: 70px;
+  height: 70px;
+}
+.wrapper__span {
+  font-size: 24px;
+  font-weight: 700;
+}

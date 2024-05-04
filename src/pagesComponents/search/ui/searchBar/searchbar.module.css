@@ -1,0 +1,46 @@
+.input {
+  width: 800px;
+  height: 60px;
+  background-color: #fa9344 !important;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+  text-indent: 50px;
+  border: 1px solid lightblue !important;
+}
+.option{
+  background-color: #fa9344 !important;
+}
+.searchIcon {
+  position: absolute;
+  left: 23%;
+  height: 40px;
+  top: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+  position: relative;
+}
+.ingredientList {
+  display: flex;
+  width: 790px;
+  background-color: #fa9344;
+  font-size: 20px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.ingredientItem {
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+.ingredientItem:hover {
+  background-color: #e07a2d;
+}
